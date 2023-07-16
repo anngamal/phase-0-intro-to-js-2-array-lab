@@ -20,6 +20,8 @@ function prependCat(name){
     return name_2
 }
 function removeLastCat(){
-    var cats= cats.slice(0,cat,1)
-    return cats;
+    return cats.slice(0,cats.length-1)
+}
+function removeFirstCat(){
+    return cats.slice(1)
 }
